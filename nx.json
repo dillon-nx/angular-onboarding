@@ -12,7 +12,7 @@
     ],
     "sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"]
   },
-  "nxCloudId": "6871428f1032191a3cc32b7e",
+  "nxCloudId": "687fa1a39da31a8b34f9bc6e",
   "targetDefaults": {
     "@angular/build:application": {
       "cache": true,
@@ -28,10 +28,7 @@
         "{workspaceRoot}/eslint.config.mjs"
       ]
     },
-    "@nx/vite:test": {
-      "cache": true,
-      "inputs": ["default", "^production"]
-    }
+    "@nx/vite:test": { "cache": true, "inputs": ["default", "^production"] }
   },
   "generators": {
     "@nx/angular:application": {
@@ -40,5 +37,6 @@
       "style": "css",
       "unitTestRunner": "vitest"
     }
-  }
+  },
+  "nxCloudUrl": "https://snapshot.nx.app"
 }
